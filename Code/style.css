@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(59, 106, 147);
+    margin:0;
+    
+}
+.body-div{
+    height: 90vh;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    
+}
+
+.header{
+    margin:0;
+    height:45px;
+    background-color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-div{
+    background-color: #fff;
+    border-radius: 20px;
+    height:300px;
+    width:600px;
+    animation: myAnim 1s ease 0s 1 normal forwards;
+    /* border-radius: 25% 25% 25% 0% / 25% 0% 15% 25%; */
+}
+ button{
+    background-color: rgb(9, 152, 136);
+    color: #fff;
+    font-weight: 700;
+    font-family: cursive;
+    font-size:medium;
+    letter-spacing: 1px;
+    height: 50px;
+    width: 140px;
+    border:none;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.select-div{
+    height:30px;
+    /* background-color: rgb(219, 203, 203); */
+}   
+select{
+    margin-top: 10px;;
+    width: 130px;
+    height:30px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 15px;
+}
+.joke-div{
+    /* background-color: rgb(189, 103, 103); */
+     height:60%;
+}
+.btn-div{
+    /* background-color: rgb(139, 255, 195); */
+    height:40%;
+}
+.sub-div{
+    height:100%;
+    width: 75%;
+    /* background-color: rgb(227, 210, 134); */
+}
+p{
+    font-weight: 600;
+    text-align: center;
+    transition: 0.5s;
+    
+}
+
+button:hover{
+    cursor: pointer;
+    color: rgb(170, 235, 228);
+}
+
+button:active{
+    color: white;
+    background-color: rgb(6, 104, 93);
+
+}
+.footer{
+    margin: 0;
+    height:30px;
+    background-color: rgba(43, 43, 43, 0.333);
+}
+.footer-p{
+    color: aliceblue;
+    font-weight: 500;
+    padding: 5px;
+    text-align: right;
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateY(250px);
+     }
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
