@@ -1,1 +1,9 @@
 # Funny_Site
+
+👉A Simple webpage which shows a random jokes each time the button is clicked .
+👉Jokes are fetched through API 
+
+
+API Used :- https://sv443.net/jokeapi/v2/
+
+
